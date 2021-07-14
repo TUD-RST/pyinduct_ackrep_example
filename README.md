@@ -1,15 +1,12 @@
-# Code from the GMA Talk
+# Pyinduct test code
 
-This repository contains the python files that were shown in the talk at this
-years meeting of the GMA Fachausschuss 1.30. 
-It contains the implementation of the well known introductory 
+This repository is based on the python files that were shown in a talk
+at the GMA Fachausschuss 1.30. 
+It contains the implementation of the an introductory 
 backstepping example 4.1 from [KristicEtAl08].
 
 ### Usage
 
-To run the files, `pyinduct` must be installed on your system.
-Further information can be found in the files themselves, 
-probably `main.py` is the best place to start.
 
 ##### References:
 
