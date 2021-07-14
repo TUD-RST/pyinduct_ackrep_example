@@ -1,0 +1,15 @@
+Obtaining file:///home/stefan/workspace/ackrep_core
+    ERROR: Command errored out with exit status 1:
+     command: /home/stefan/.virtualenvs/ackrep/bin/python -c 'import io, os, sys, setuptools, tokenize; sys.argv[0] = '"'"'/home/stefan/workspace/ackrep_core/setup.py'"'"'; __file__='"'"'/home/stefan/workspace/ackrep_core/setup.py'"'"';f = getattr(tokenize, '"'"'open'"'"', open)(__file__) if os.path.exists(__file__) else io.StringIO('"'"'from setuptools import setup; setup()'"'"');code = f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' egg_info --egg-base /tmp/pip-pip-egg-info-emfkbxgs
+         cwd: /home/stefan/workspace/ackrep_core/
+    Complete output (7 lines):
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/home/stefan/workspace/ackrep_core/setup.py", line 4, in <module>
+        from ackrep_core import __version__
+      File "/home/stefan/workspace/ackrep_core/ackrep_core/__init__.py", line 12, in <module>
+        from ipydex import Container
+    ModuleNotFoundError: No module named 'ipydex'
+    ----------------------------------------
+WARNING: Discarding file:///home/stefan/workspace/ackrep_core. Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
+ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
